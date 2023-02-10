@@ -1,6 +1,12 @@
 
 /* 
-    List all tables in the database, ordered by size, descending, use text format.
+
+returns tablename - total size,
+ordered by size, descending, text format, 
+usefull for finding 'big boy' tables of the app,
+usually top 3 tables take %90 or more from the pie,
+
+
 */
 
 SELECT
